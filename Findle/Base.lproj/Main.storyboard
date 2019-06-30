@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5pc-5m-I7A">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Findle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="RadialGradient" customModule="Findle" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="couple" translatesAutoresizingMaskIntoConstraints="NO" id="Ydp-se-Log">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="523.66666666666663"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Ydp-se-Log" secondAttribute="height" multiplier="375:523.5" id="6ds-4R-al2"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ss7-td-ZuN" userLabel="SignSubView" customClass="SetViewStyle" customModule="Findle">
+                                <rect key="frame" x="0.0" y="523.66666666666663" width="170" height="33.666666666666629"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                        <point key="value" x="0.0" y="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowBlur">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowSpread">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FP8-MW-Ps0" userLabel="LoginSubView" customClass="SetViewStyle" customModule="Findle" customModuleProvider="target">
+                                <rect key="frame" x="205" y="523.66666666666663" width="170" height="33.666666666666629"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                        <point key="value" x="0.0" y="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowBlur">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowSpread">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r3n-h5-dLY" customClass="SetViewStyle" customModule="Findle" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="523.66666666666663" width="170" height="38"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="SIGN UP">
+                                            <attributes>
+                                                <color key="NSColor" red="0.81607109308242798" green="0.28118795156478882" blue="0.28420078754425049" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="20" name="HelveticaNeue-CondensedBold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l4T-qJ-u19" userLabel="Btn Login" customClass="SetViewStyle" customModule="Findle" customModuleProvider="target">
+                                <rect key="frame" x="206" y="523.66666666666663" width="169" height="38"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="LOGIN">
+                                            <attributes>
+                                                <color key="NSColor" red="0.81607109308242798" green="0.28118795156478882" blue="0.28420078754425049" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="20" name="HelveticaNeue-CondensedBold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L0t-qZ-hke" customClass="ButtonStyle" customModule="Findle" customModuleProvider="target">
+                                <rect key="frame" x="62.666666666666657" y="651" width="249.99999999999997" height="42.666666666666629"/>
+                                <color key="backgroundColor" red="0.81607109310000003" green="0.28118795159999999" blue="0.2842007875" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                <state key="normal" title="Google">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                        <point key="value" x="0.0" y="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowBlur">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowSpread">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1c7-sJ-UvE" customClass="ButtonStyle" customModule="Findle" customModuleProvider="target">
+                                <rect key="frame" x="62.666666666666657" y="703.66666666666663" width="249.99999999999997" height="42.333333333333371"/>
+                                <color key="backgroundColor" red="0.25692379474639893" green="0.27988630533218384" blue="0.77739602327346802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="25"/>
+                                <state key="normal" title="Facebook">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                        <point key="value" x="0.0" y="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowBlur">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowSpread">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qlm-Vk-D7B" customClass="ButtonStyle" customModule="Findle" customModuleProvider="target">
+                                <rect key="frame" x="62.666666666666657" y="598.66666666666663" width="249.99999999999997" height="42.333333333333371"/>
+                                <color key="backgroundColor" red="0.83444458246231079" green="0.68560826778411865" blue="0.54804801940917969" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
+                                <state key="normal" title="Email">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                        <point key="value" x="0.0" y="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowBlur">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowSpread">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TERMS &amp; PRIVACY POLICY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dEK-Rc-VTq">
+                                <rect key="frame" x="129" y="756" width="117" height="12"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Bold" family="Bodoni 72" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="FP8-MW-Ps0" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="40:812" id="6O6-Ka-Nsj"/>
+                            <constraint firstItem="1c7-sJ-UvE" firstAttribute="top" secondItem="L0t-qZ-hke" secondAttribute="bottom" constant="10" id="7aa-8V-R9v"/>
+                            <constraint firstItem="Ydp-se-Log" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="7df-Nc-5qa"/>
+                            <constraint firstAttribute="trailing" secondItem="l4T-qJ-u19" secondAttribute="trailing" id="7u3-X8-onW"/>
+                            <constraint firstItem="r3n-h5-dLY" firstAttribute="top" secondItem="Ydp-se-Log" secondAttribute="bottom" id="7xx-JX-w4N"/>
+                            <constraint firstItem="Ss7-td-ZuN" firstAttribute="top" secondItem="Ydp-se-Log" secondAttribute="bottom" id="9kW-vp-9PQ"/>
+                            <constraint firstItem="L0t-qZ-hke" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="250:375" id="DHo-QU-85e"/>
+                            <constraint firstItem="Qlm-Vk-D7B" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IKn-Sd-8cy"/>
+                            <constraint firstItem="L0t-qZ-hke" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="50:812" id="J5g-20-Pdh"/>
+                            <constraint firstItem="r3n-h5-dLY" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="170:375" id="Kcc-aq-rU5"/>
+                            <constraint firstAttribute="trailing" secondItem="FP8-MW-Ps0" secondAttribute="trailing" id="Mms-Ua-sEd"/>
+                            <constraint firstItem="Qlm-Vk-D7B" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="50:812" id="OEB-2N-6dW"/>
+                            <constraint firstItem="r3n-h5-dLY" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="45:812" id="ORG-cQ-q1i"/>
+                            <constraint firstItem="FP8-MW-Ps0" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="170:375" id="ORi-gu-NdE"/>
+                            <constraint firstItem="dEK-Rc-VTq" firstAttribute="top" secondItem="1c7-sJ-UvE" secondAttribute="bottom" constant="10" id="PTj-UD-jhN"/>
+                            <constraint firstItem="FP8-MW-Ps0" firstAttribute="top" secondItem="Ydp-se-Log" secondAttribute="bottom" id="Qcc-Ce-71u"/>
+                            <constraint firstItem="l4T-qJ-u19" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="45:812" id="S2B-se-4AN"/>
+                            <constraint firstItem="Ydp-se-Log" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Tqr-Ux-V4d"/>
+                            <constraint firstAttribute="trailing" secondItem="Ydp-se-Log" secondAttribute="trailing" id="V0T-sO-HRj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dEK-Rc-VTq" secondAttribute="bottom" constant="10" id="VMI-5Q-WfS"/>
+                            <constraint firstItem="1c7-sJ-UvE" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="50:812" id="WBh-HO-jhM"/>
+                            <constraint firstItem="L0t-qZ-hke" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Xd3-i4-hNG"/>
+                            <constraint firstItem="r3n-h5-dLY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="eeM-7l-Ged"/>
+                            <constraint firstItem="L0t-qZ-hke" firstAttribute="top" secondItem="Qlm-Vk-D7B" secondAttribute="bottom" constant="10" id="jyf-3G-wYU"/>
+                            <constraint firstItem="l4T-qJ-u19" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="169:375" id="lor-pe-T1N"/>
+                            <constraint firstItem="Ss7-td-ZuN" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="170:375" id="m9e-ed-xll"/>
+                            <constraint firstItem="1c7-sJ-UvE" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="250:375" id="mar-Pm-Rgr"/>
+                            <constraint firstItem="Qlm-Vk-D7B" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="250:375" id="nV8-NT-7V8"/>
+                            <constraint firstItem="dEK-Rc-VTq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nrD-oI-dSN"/>
+                            <constraint firstItem="l4T-qJ-u19" firstAttribute="top" secondItem="Ydp-se-Log" secondAttribute="bottom" id="r2c-IG-GAu"/>
+                            <constraint firstItem="Ss7-td-ZuN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="raV-dU-ASf"/>
+                            <constraint firstItem="Ss7-td-ZuN" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="40:812" id="wh2-eX-Yea"/>
+                            <constraint firstItem="1c7-sJ-UvE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xIu-bU-9li"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="Insidecolor">
+                                <color key="value" red="0.86476939916610718" green="0.93730634450912476" blue="0.97659128904342651" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="OutsideColor">
+                                <color key="value" red="0.87979322671890259" green="0.8272407054901123" blue="0.89807063341140747" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <navigationItem key="navigationItem" id="zC4-vj-ard"/>
+                    <connections>
+                        <outlet property="btnLogin" destination="l4T-qJ-u19" id="CqF-gb-eyD"/>
+                        <outlet property="btnSign" destination="r3n-h5-dLY" id="PF1-de-Mpx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="943.47826086956525" y="22.767857142857142"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ijc-WW-keo">
+            <objects>
+                <viewController storyboardIdentifier="SignUpScreen" id="dIJ-YW-wN8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lZO-KZ-2zJ" customClass="RadialGradient" customModule="Findle" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jLq-Ky-e7a">
+                                <rect key="frame" x="57.666666666666657" y="93" width="259.66666666666674" height="107.33333333333331"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Hey, please fill the fields and ENJOY">
+                                        <attributes>
+                                            <color key="NSColor" red="0.25692379469999999" green="0.27988630530000003" blue="0.77739602330000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="30" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TERMS &amp; PRIVACY POLICY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="asf-nW-kjT">
+                                <rect key="frame" x="129" y="756" width="117" height="12"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Bold" family="Bodoni 72" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By tapping agree and sign up, you agree to the" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IWD-9c-JLB">
+                                <rect key="frame" x="101.66666666666669" y="743" width="172" height="13"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="khh-jY-tVv" customClass="ButtonStyle" customModule="Findle" customModuleProvider="target">
+                                <rect key="frame" x="62.666666666666657" y="677.66666666666663" width="249.99999999999997" height="45.333333333333371"/>
+                                <color key="backgroundColor" red="0.81607109310000003" green="0.28118795159999999" blue="0.2842007875" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="SIGN UP">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                        <point key="value" x="0.0" y="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowBlur">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowSpread">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" allowsEditingTextAttributes="YES" minimumFontSize="17" background="edtNickName" translatesAutoresizingMaskIntoConstraints="NO" id="aLg-gR-Cyy">
+                                <rect key="frame" x="24.666666666666657" y="205.33333333333334" width="325.66666666666674" height="57.000000000000028"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="asdfasdfasdfasdfa">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name=".SFNSText"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacingBefore="20" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jLq-Ky-e7a" firstAttribute="centerX" secondItem="lZO-KZ-2zJ" secondAttribute="centerX" id="6Kd-IJ-bha"/>
+                            <constraint firstItem="asf-nW-kjT" firstAttribute="top" secondItem="IWD-9c-JLB" secondAttribute="bottom" id="EVR-Vs-wNH"/>
+                            <constraint firstItem="IWD-9c-JLB" firstAttribute="top" secondItem="khh-jY-tVv" secondAttribute="bottom" constant="20" id="Q5Z-K8-uh0"/>
+                            <constraint firstItem="khh-jY-tVv" firstAttribute="height" secondItem="e8K-iR-3ur" secondAttribute="height" multiplier="50:812" id="QXm-ej-eCx"/>
+                            <constraint firstItem="aLg-gR-Cyy" firstAttribute="width" secondItem="lZO-KZ-2zJ" secondAttribute="width" multiplier="325.8:375" id="THb-52-dl8"/>
+                            <constraint firstItem="khh-jY-tVv" firstAttribute="width" secondItem="lZO-KZ-2zJ" secondAttribute="width" multiplier="250:375" id="Tm9-kA-n2u"/>
+                            <constraint firstItem="aLg-gR-Cyy" firstAttribute="centerX" secondItem="lZO-KZ-2zJ" secondAttribute="centerX" id="Xrk-nf-9Lm"/>
+                            <constraint firstItem="jLq-Ky-e7a" firstAttribute="top" secondItem="lZO-KZ-2zJ" secondAttribute="topMargin" constant="49" id="ge0-tg-eUH"/>
+                            <constraint firstItem="khh-jY-tVv" firstAttribute="centerX" secondItem="lZO-KZ-2zJ" secondAttribute="centerX" id="hxx-7m-GpM"/>
+                            <constraint firstItem="asf-nW-kjT" firstAttribute="centerX" secondItem="lZO-KZ-2zJ" secondAttribute="centerX" id="mPz-xQ-yCz"/>
+                            <constraint firstItem="aLg-gR-Cyy" firstAttribute="top" secondItem="jLq-Ky-e7a" secondAttribute="bottom" constant="5" id="oLm-8o-dHc"/>
+                            <constraint firstItem="e8K-iR-3ur" firstAttribute="bottom" secondItem="asf-nW-kjT" secondAttribute="bottom" constant="10" id="pKa-Qu-4LP"/>
+                            <constraint firstItem="aLg-gR-Cyy" firstAttribute="height" secondItem="e8K-iR-3ur" secondAttribute="height" multiplier="63:812" id="pZ0-F0-kk6"/>
+                            <constraint firstItem="IWD-9c-JLB" firstAttribute="centerX" secondItem="lZO-KZ-2zJ" secondAttribute="centerX" id="uOr-6E-Gxt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="e8K-iR-3ur"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="Insidecolor">
+                                <color key="value" red="0.86476939916610718" green="0.93730634450912476" blue="0.97659128904342651" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="OutsideColor">
+                                <color key="value" red="0.87979322671890259" green="0.8272407054901123" blue="0.89807063341140747" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <navigationItem key="navigationItem" id="Fw4-ks-Q7f"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XR6-LG-Wsn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1739.1304347826087" y="22.767857142857142"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="J7F-jE-6L9">
+            <objects>
+                <viewController id="rSB-KZ-dxK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dXc-sI-gl4" customClass="RadialGradient" customModule="Findle" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8px-5A-i6x">
+                                <rect key="frame" x="57.666666666666657" y="200" width="259.66666666666674" height="107.33333333333331"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Hey, please fill the fields and ENJOY">
+                                        <attributes>
+                                            <color key="NSColor" red="0.25692379469999999" green="0.27988630530000003" blue="0.77739602330000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="30" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HYT-8C-te4" customClass="ButtonStyle" customModule="Findle" customModuleProvider="target">
+                                <rect key="frame" x="62.666666666666657" y="678.66666666666663" width="249.99999999999997" height="45.333333333333371"/>
+                                <color key="backgroundColor" red="0.81607109310000003" green="0.28118795159999999" blue="0.2842007875" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="LOGIN">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                        <point key="value" x="0.0" y="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowBlur">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowSpread">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TERMS &amp; PRIVACY POLICY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyz-bj-QL6">
+                                <rect key="frame" x="129" y="746" width="117" height="12"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Bold" family="Bodoni 72" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="8px-5A-i6x" firstAttribute="centerX" secondItem="dXc-sI-gl4" secondAttribute="centerX" id="5lx-F2-coE"/>
+                            <constraint firstItem="HYT-8C-te4" firstAttribute="height" secondItem="qk3-Jh-one" secondAttribute="height" multiplier="50:812" id="70H-A7-o4E"/>
+                            <constraint firstItem="dyz-bj-QL6" firstAttribute="centerX" secondItem="dXc-sI-gl4" secondAttribute="centerX" id="KEg-Vl-l5o"/>
+                            <constraint firstItem="HYT-8C-te4" firstAttribute="centerX" secondItem="dXc-sI-gl4" secondAttribute="centerX" id="Qbb-tl-xkn"/>
+                            <constraint firstItem="qk3-Jh-one" firstAttribute="bottom" secondItem="dyz-bj-QL6" secondAttribute="bottom" constant="20" id="TgB-E1-A1b"/>
+                            <constraint firstItem="qk3-Jh-one" firstAttribute="bottom" secondItem="HYT-8C-te4" secondAttribute="bottom" constant="54" id="dwp-yV-7Zm"/>
+                            <constraint firstItem="8px-5A-i6x" firstAttribute="top" secondItem="qk3-Jh-one" secondAttribute="top" constant="156" id="h24-y2-8so"/>
+                            <constraint firstItem="HYT-8C-te4" firstAttribute="width" secondItem="dXc-sI-gl4" secondAttribute="width" multiplier="250:375" id="jGQ-dS-4zF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="qk3-Jh-one"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="Insidecolor">
+                                <color key="value" red="0.86476939919999996" green="0.93730634450000005" blue="0.97659128900000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="OutsideColor">
+                                <color key="value" red="0.87979322670000004" green="0.82724070549999995" blue="0.89807063340000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DYO-tX-9yY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1712" y="792"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9jM-AJ-KxG">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5pc-5m-I7A" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="W4I-EY-r14">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="2MQ-TO-w7X"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="129-ec-oQo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="33.333333333333336" y="22.767857142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="couple" width="375.66665649414062" height="523.66668701171875"/>
+        <image name="edtNickName" width="326.33334350585938" height="62"/>
+    </resources>
+</document>

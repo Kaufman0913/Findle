@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5D802FC22C65EC100961775 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5D802FB22C65EC100961775 /* Login.storyboard */; };
+		F5F2DE4822C3704600EE9B76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F2DE4722C3704600EE9B76 /* AppDelegate.swift */; };
+		F5F2DE4A22C3704600EE9B76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F2DE4922C3704600EE9B76 /* ViewController.swift */; };
+		F5F2DE4D22C3704600EE9B76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5F2DE4B22C3704600EE9B76 /* Main.storyboard */; };
+		F5F2DE4F22C3704800EE9B76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5F2DE4E22C3704800EE9B76 /* Assets.xcassets */; };
+		F5F2DE5222C3704800EE9B76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5F2DE5022C3704800EE9B76 /* LaunchScreen.storyboard */; };
+		F5F2DE5D22C3704800EE9B76 /* FindleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F2DE5C22C3704800EE9B76 /* FindleTests.swift */; };
+		F5F2DE6822C3704800EE9B76 /* FindleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F2DE6722C3704800EE9B76 /* FindleUITests.swift */; };
+		F5F2DE7822C3949500EE9B76 /* RadialGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F2DE7722C3949500EE9B76 /* RadialGradient.swift */; };
+		F5F2DE7A22C3E77700EE9B76 /* SetViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F2DE7922C3E77700EE9B76 /* SetViewStyle.swift */; };
+		F5F2DFE722C41A5300EE9B76 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F2DFE622C41A5300EE9B76 /* Constants.swift */; };
+		F5F2DFE922C49BC800EE9B76 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F2DFE822C49BC800EE9B76 /* ButtonStyle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5F2DE5922C3704800EE9B76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5F2DE3C22C3704500EE9B76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5F2DE4322C3704600EE9B76;
+			remoteInfo = Findle;
+		};
+		F5F2DE6422C3704800EE9B76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5F2DE3C22C3704500EE9B76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5F2DE4322C3704600EE9B76;
+			remoteInfo = Findle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5D802FB22C65EC100961775 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		F5F2DE4422C3704600EE9B76 /* Findle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Findle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F2DE4722C3704600EE9B76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5F2DE4922C3704600EE9B76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5F2DE4C22C3704600EE9B76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5F2DE4E22C3704800EE9B76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5F2DE5122C3704800EE9B76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5F2DE5322C3704800EE9B76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5F2DE5822C3704800EE9B76 /* FindleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F2DE5C22C3704800EE9B76 /* FindleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindleTests.swift; sourceTree = "<group>"; };
+		F5F2DE5E22C3704800EE9B76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5F2DE6322C3704800EE9B76 /* FindleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F2DE6722C3704800EE9B76 /* FindleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindleUITests.swift; sourceTree = "<group>"; };
+		F5F2DE6922C3704800EE9B76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5F2DE7722C3949500EE9B76 /* RadialGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialGradient.swift; sourceTree = "<group>"; };
+		F5F2DE7922C3E77700EE9B76 /* SetViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetViewStyle.swift; sourceTree = "<group>"; };
+		F5F2DF8E22C4028600EE9B76 /* DesignableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableImageView.swift; sourceTree = "<group>"; };
+		F5F2DF8F22C4028600EE9B76 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		F5F2DF9022C4028600EE9B76 /* TransitionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
+		F5F2DF9122C4028600EE9B76 /* TransitionZoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
+		F5F2DF9222C4028600EE9B76 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		F5F2DF9322C4028600EE9B76 /* Spring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spring.swift; sourceTree = "<group>"; };
+		F5F2DF9422C4028600EE9B76 /* SpringImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringImageView.swift; sourceTree = "<group>"; };
+		F5F2DF9522C4028600EE9B76 /* DesignableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableLabel.swift; sourceTree = "<group>"; };
+		F5F2DF9622C4028600EE9B76 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		F5F2DF9722C4028600EE9B76 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		F5F2DF9822C4028600EE9B76 /* DesignableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
+		F5F2DF9922C4028600EE9B76 /* SpringButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringButton.swift; sourceTree = "<group>"; };
+		F5F2DF9A22C4028600EE9B76 /* SpringTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringTextView.swift; sourceTree = "<group>"; };
+		F5F2DF9B22C4028600EE9B76 /* Misc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+		F5F2DF9C22C4028600EE9B76 /* SpringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringView.swift; sourceTree = "<group>"; };
+		F5F2DF9D22C4028600EE9B76 /* DesignableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		F5F2DF9E22C4028600EE9B76 /* SpringTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringTextField.swift; sourceTree = "<group>"; };
+		F5F2DF9F22C4028600EE9B76 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		F5F2DFA022C4028600EE9B76 /* DesignableTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableTabBarController.swift; sourceTree = "<group>"; };
+		F5F2DFA122C4028600EE9B76 /* AsyncButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
+		F5F2DFA222C4028600EE9B76 /* LoadingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		F5F2DFA322C4028600EE9B76 /* SpringLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringLabel.swift; sourceTree = "<group>"; };
+		F5F2DFA422C4028600EE9B76 /* Spring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Spring.h; sourceTree = "<group>"; };
+		F5F2DFA522C4028600EE9B76 /* DesignableTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableTextView.swift; sourceTree = "<group>"; };
+		F5F2DFA622C4028600EE9B76 /* AutoTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoTextView.swift; sourceTree = "<group>"; };
+		F5F2DFA722C4028600EE9B76 /* SpringAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
+		F5F2DFA822C4028600EE9B76 /* UnwindSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
+		F5F2DFA922C4028600EE9B76 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		F5F2DFAA22C4028600EE9B76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5F2DFAB22C4028600EE9B76 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		F5F2DFE622C41A5300EE9B76 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F5F2DFE822C49BC800EE9B76 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5F2DE4122C3704600EE9B76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F2DE5522C3704800EE9B76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F2DE6022C3704800EE9B76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5F2DE3B22C3704500EE9B76 = {
+			isa = PBXGroup;
+			children = (
+				F5F2DE4622C3704600EE9B76 /* Findle */,
+				F5F2DE5B22C3704800EE9B76 /* FindleTests */,
+				F5F2DE6622C3704800EE9B76 /* FindleUITests */,
+				F5F2DE4522C3704600EE9B76 /* Products */,
+				F5F2DF8C22C4028300EE9B76 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F5F2DE4522C3704600EE9B76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5F2DE4422C3704600EE9B76 /* Findle.app */,
+				F5F2DE5822C3704800EE9B76 /* FindleTests.xctest */,
+				F5F2DE6322C3704800EE9B76 /* FindleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5F2DE4622C3704600EE9B76 /* Findle */ = {
+			isa = PBXGroup;
+			children = (
+				F5F2DE4722C3704600EE9B76 /* AppDelegate.swift */,
+				F5F2DE4922C3704600EE9B76 /* ViewController.swift */,
+				F5F2DE4B22C3704600EE9B76 /* Main.storyboard */,
+				F5F2DE4E22C3704800EE9B76 /* Assets.xcassets */,
+				F5F2DE5022C3704800EE9B76 /* LaunchScreen.storyboard */,
+				F5F2DE5322C3704800EE9B76 /* Info.plist */,
+				F5F2DE7722C3949500EE9B76 /* RadialGradient.swift */,
+				F5F2DE7922C3E77700EE9B76 /* SetViewStyle.swift */,
+				F5F2DFE622C41A5300EE9B76 /* Constants.swift */,
+				F5D802FB22C65EC100961775 /* Login.storyboard */,
+			);
+			path = Findle;
+			sourceTree = "<group>";
+		};
+		F5F2DE5B22C3704800EE9B76 /* FindleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5F2DE5C22C3704800EE9B76 /* FindleTests.swift */,
+				F5F2DE5E22C3704800EE9B76 /* Info.plist */,
+			);
+			path = FindleTests;
+			sourceTree = "<group>";
+		};
+		F5F2DE6622C3704800EE9B76 /* FindleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5F2DE6722C3704800EE9B76 /* FindleUITests.swift */,
+				F5F2DE6922C3704800EE9B76 /* Info.plist */,
+			);
+			path = FindleUITests;
+			sourceTree = "<group>";
+		};
+		F5F2DF8C22C4028300EE9B76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5F2DF8D22C4028600EE9B76 /* Spring */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5F2DF8D22C4028600EE9B76 /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				F5F2DF8E22C4028600EE9B76 /* DesignableImageView.swift */,
+				F5F2DF8F22C4028600EE9B76 /* KeyboardLayoutConstraint.swift */,
+				F5F2DF9022C4028600EE9B76 /* TransitionManager.swift */,
+				F5F2DF9122C4028600EE9B76 /* TransitionZoom.swift */,
+				F5F2DF9222C4028600EE9B76 /* ImageLoader.swift */,
+				F5F2DF9322C4028600EE9B76 /* Spring.swift */,
+				F5F2DF9422C4028600EE9B76 /* SpringImageView.swift */,
+				F5F2DF9522C4028600EE9B76 /* DesignableLabel.swift */,
+				F5F2DF9622C4028600EE9B76 /* SoundPlayer.swift */,
+				F5F2DF9722C4028600EE9B76 /* BlurView.swift */,
+				F5F2DF9822C4028600EE9B76 /* DesignableTextField.swift */,
+				F5F2DF9922C4028600EE9B76 /* SpringButton.swift */,
+				F5F2DF9A22C4028600EE9B76 /* SpringTextView.swift */,
+				F5F2DF9B22C4028600EE9B76 /* Misc.swift */,
+				F5F2DF9C22C4028600EE9B76 /* SpringView.swift */,
+				F5F2DF9D22C4028600EE9B76 /* DesignableButton.swift */,
+				F5F2DF9E22C4028600EE9B76 /* SpringTextField.swift */,
+				F5F2DF9F22C4028600EE9B76 /* DesignableView.swift */,
+				F5F2DFA022C4028600EE9B76 /* DesignableTabBarController.swift */,
+				F5F2DFA122C4028600EE9B76 /* AsyncButton.swift */,
+				F5F2DFA222C4028600EE9B76 /* LoadingView.xib */,
+				F5F2DFA322C4028600EE9B76 /* SpringLabel.swift */,
+				F5F2DFA422C4028600EE9B76 /* Spring.h */,
+				F5F2DFA522C4028600EE9B76 /* DesignableTextView.swift */,
+				F5F2DFA622C4028600EE9B76 /* AutoTextView.swift */,
+				F5F2DFA722C4028600EE9B76 /* SpringAnimation.swift */,
+				F5F2DFA822C4028600EE9B76 /* UnwindSegue.swift */,
+				F5F2DFA922C4028600EE9B76 /* LoadingView.swift */,
+				F5F2DFAA22C4028600EE9B76 /* Info.plist */,
+				F5F2DFAB22C4028600EE9B76 /* AsyncImageView.swift */,
+				F5F2DFE822C49BC800EE9B76 /* ButtonStyle.swift */,
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5F2DE4322C3704600EE9B76 /* Findle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5F2DE6C22C3704800EE9B76 /* Build configuration list for PBXNativeTarget "Findle" */;
+			buildPhases = (
+				F5F2DE4022C3704600EE9B76 /* Sources */,
+				F5F2DE4122C3704600EE9B76 /* Frameworks */,
+				F5F2DE4222C3704600EE9B76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Findle;
+			productName = Findle;
+			productReference = F5F2DE4422C3704600EE9B76 /* Findle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5F2DE5722C3704800EE9B76 /* FindleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5F2DE6F22C3704800EE9B76 /* Build configuration list for PBXNativeTarget "FindleTests" */;
+			buildPhases = (
+				F5F2DE5422C3704800EE9B76 /* Sources */,
+				F5F2DE5522C3704800EE9B76 /* Frameworks */,
+				F5F2DE5622C3704800EE9B76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5F2DE5A22C3704800EE9B76 /* PBXTargetDependency */,
+			);
+			name = FindleTests;
+			productName = FindleTests;
+			productReference = F5F2DE5822C3704800EE9B76 /* FindleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5F2DE6222C3704800EE9B76 /* FindleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5F2DE7222C3704800EE9B76 /* Build configuration list for PBXNativeTarget "FindleUITests" */;
+			buildPhases = (
+				F5F2DE5F22C3704800EE9B76 /* Sources */,
+				F5F2DE6022C3704800EE9B76 /* Frameworks */,
+				F5F2DE6122C3704800EE9B76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5F2DE6522C3704800EE9B76 /* PBXTargetDependency */,
+			);
+			name = FindleUITests;
+			productName = FindleUITests;
+			productReference = F5F2DE6322C3704800EE9B76 /* FindleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5F2DE3C22C3704500EE9B76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = ISOP;
+				TargetAttributes = {
+					F5F2DE4322C3704600EE9B76 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					F5F2DE5722C3704800EE9B76 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F5F2DE4322C3704600EE9B76;
+					};
+					F5F2DE6222C3704800EE9B76 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F5F2DE4322C3704600EE9B76;
+					};
+				};
+			};
+			buildConfigurationList = F5F2DE3F22C3704500EE9B76 /* Build configuration list for PBXProject "Findle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5F2DE3B22C3704500EE9B76;
+			productRefGroup = F5F2DE4522C3704600EE9B76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5F2DE4322C3704600EE9B76 /* Findle */,
+				F5F2DE5722C3704800EE9B76 /* FindleTests */,
+				F5F2DE6222C3704800EE9B76 /* FindleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5F2DE4222C3704600EE9B76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D802FC22C65EC100961775 /* Login.storyboard in Resources */,
+				F5F2DE5222C3704800EE9B76 /* LaunchScreen.storyboard in Resources */,
+				F5F2DE4F22C3704800EE9B76 /* Assets.xcassets in Resources */,
+				F5F2DE4D22C3704600EE9B76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F2DE5622C3704800EE9B76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F2DE6122C3704800EE9B76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5F2DE4022C3704600EE9B76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F2DFE722C41A5300EE9B76 /* Constants.swift in Sources */,
+				F5F2DE4A22C3704600EE9B76 /* ViewController.swift in Sources */,
+				F5F2DE7822C3949500EE9B76 /* RadialGradient.swift in Sources */,
+				F5F2DFE922C49BC800EE9B76 /* ButtonStyle.swift in Sources */,
+				F5F2DE4822C3704600EE9B76 /* AppDelegate.swift in Sources */,
+				F5F2DE7A22C3E77700EE9B76 /* SetViewStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F2DE5422C3704800EE9B76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F2DE5D22C3704800EE9B76 /* FindleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F2DE5F22C3704800EE9B76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F2DE6822C3704800EE9B76 /* FindleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5F2DE5A22C3704800EE9B76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5F2DE4322C3704600EE9B76 /* Findle */;
+			targetProxy = F5F2DE5922C3704800EE9B76 /* PBXContainerItemProxy */;
+		};
+		F5F2DE6522C3704800EE9B76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5F2DE4322C3704600EE9B76 /* Findle */;
+			targetProxy = F5F2DE6422C3704800EE9B76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5F2DE4B22C3704600EE9B76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F2DE4C22C3704600EE9B76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5F2DE5022C3704800EE9B76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F2DE5122C3704800EE9B76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5F2DE6A22C3704800EE9B76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5F2DE6B22C3704800EE9B76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5F2DE6D22C3704800EE9B76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Findle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Paul.Findle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5F2DE6E22C3704800EE9B76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Findle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Paul.Findle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5F2DE7022C3704800EE9B76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FindleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Paul.FindleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Findle.app/Findle";
+			};
+			name = Debug;
+		};
+		F5F2DE7122C3704800EE9B76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FindleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Paul.FindleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Findle.app/Findle";
+			};
+			name = Release;
+		};
+		F5F2DE7322C3704800EE9B76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FindleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Paul.FindleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Findle;
+			};
+			name = Debug;
+		};
+		F5F2DE7422C3704800EE9B76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FindleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Paul.FindleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Findle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5F2DE3F22C3704500EE9B76 /* Build configuration list for PBXProject "Findle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F2DE6A22C3704800EE9B76 /* Debug */,
+				F5F2DE6B22C3704800EE9B76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5F2DE6C22C3704800EE9B76 /* Build configuration list for PBXNativeTarget "Findle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F2DE6D22C3704800EE9B76 /* Debug */,
+				F5F2DE6E22C3704800EE9B76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5F2DE6F22C3704800EE9B76 /* Build configuration list for PBXNativeTarget "FindleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F2DE7022C3704800EE9B76 /* Debug */,
+				F5F2DE7122C3704800EE9B76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5F2DE7222C3704800EE9B76 /* Build configuration list for PBXNativeTarget "FindleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F2DE7322C3704800EE9B76 /* Debug */,
+				F5F2DE7422C3704800EE9B76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5F2DE3C22C3704500EE9B76 /* Project object */;
+}
