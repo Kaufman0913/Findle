@@ -20,6 +20,18 @@ class ViewController: UIViewController {
         
         btnSign.roundButton()
         btnLogin.roundButton1()
+        //bluesky93128 commits
+        
+        btnSign.roundButton()
+        btnLogin.roundButton1()
+        btnSign.roundButton()
+        btnLogin.roundButton1()
+        btnSign.roundButton()
+        btnLogin.roundButton1()
+        btnSign.roundButton()
+        btnLogin.roundButton1()
+        btnSign.roundButton()
+        btnLogin.roundButton1()
         
         
     }
