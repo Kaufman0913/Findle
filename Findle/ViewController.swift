@@ -20,6 +20,16 @@ class ViewController: UIViewController {
         
         btnSign.roundButton()
         btnLogin.roundButton1()
+        btnSign.roundButton()
+        btnLogin.roundButton1()
+        btnSign.roundButton()
+        btnLogin.roundButton1()
+        btnSign.roundButton()
+        btnLogin.roundButton1()
+        btnSign.roundButton()
+        btnLogin.roundButton1()
+        btnSign.roundButton()
+        btnLogin.roundButton1()
         
         
     }
